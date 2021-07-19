@@ -9,10 +9,15 @@ const char * password = "moraniratkul_165210";
 
 
 String FirmwareVer = {
-  "1.1"
+  "1.2"
 };
-#define URL_fw_Version "https://www.patkolpae.com/smartsensor/ota/demo1/bin_version.txt"
-#define URL_fw_Bin     "https://www.patkolpae.com/smartsensor/ota/demo1/fw.bin"
+
+
+#define URL_fw_Version "https://raw.githubusercontent.com/pakorn33/ESP32_OTA/master/bin_version.txt"
+#define URL_fw_Bin     "https://raw.githubusercontent.com/pakorn33/ESP32_OTA/master/fw.bin"
+
+//#define URL_fw_Version "https://www.patkolpae.com/smartsensor/ota/demo1/bin_version.txt"
+//#define URL_fw_Bin     "https://www.patkolpae.com/smartsensor/ota/demo1/fw.bin"
 
 //#define URL_fw_Version "http://cade-make.000webhostapp.com/version.txt"
 //#define URL_fw_Bin "http://cade-make.000webhostapp.com/firmware.bin"
