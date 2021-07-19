@@ -9,7 +9,7 @@ const char * password = "moraniratkul_165210";
 
 
 String FirmwareVer = {
-  "1.2"
+  "1.3"
 };
 
 
